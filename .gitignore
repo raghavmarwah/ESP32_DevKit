@@ -24,3 +24,6 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+ESP32_DevKit-backups/
+*.DS_Store
+
