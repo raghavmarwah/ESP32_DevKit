@@ -5,6 +5,16 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "${project_name}")
+    (date "2022-09-03")
+    (rev "1")
+    (comment 1 "Project #3, KiCad Like a Pro Udemy course")
+    (comment 2 "${project_name} Replica Board")
+    (comment 3 "github.com/raghavmarwah")
+    (comment 4 "raghavmarwah.com")
+  )
+
   (layers
     (0 "F.Cu" mixed)
     (31 "B.Cu" mixed)
@@ -41,11 +51,11 @@
     (stackup
       (layer "F.SilkS" (type "Top Silk Screen"))
       (layer "F.Paste" (type "Top Solder Paste"))
-      (layer "F.Mask" (type "Top Solder Mask") (thickness 0.01))
+      (layer "F.Mask" (type "Top Solder Mask") (color "Black") (thickness 0.01))
       (layer "F.Cu" (type "copper") (thickness 0.035))
       (layer "dielectric 1" (type "core") (thickness 1.51) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
       (layer "B.Cu" (type "copper") (thickness 0.035))
-      (layer "B.Mask" (type "Bottom Solder Mask") (thickness 0.01))
+      (layer "B.Mask" (type "Bottom Solder Mask") (color "Black") (thickness 0.01))
       (layer "B.Paste" (type "Bottom Solder Paste"))
       (layer "B.SilkS" (type "Bottom Silk Screen"))
       (copper_finish "None")
@@ -4019,7 +4029,7 @@
   (dimension (type aligned) (layer "User.1") (tstamp 1d940966-ee8d-4ec6-9902-2c2ba0f959b8)
     (pts (xy 161.6186 119.9156) (xy 161.671 62.992))
     (height 23.256538)
-    (gr_text "56.9236 mm" (at 183.101329 91.473551 89.94725741) (layer "User.1") (tstamp a9d24046-58fe-4636-8290-beaae60a6223)
+    (gr_text "56.9236 mm" (at 183.101329 91.473551 89.94725741) (layer "User.1") (tstamp 1d940966-ee8d-4ec6-9902-2c2ba0f959b8)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (format (units 3) (units_format 1) (precision 4))
@@ -4028,7 +4038,7 @@
   (dimension (type aligned) (layer "User.1") (tstamp ba9c2bee-a50e-47a8-b65d-02cdc4351cc8)
     (pts (xy 142.875 116.459) (xy 173.482 116.459))
     (height 13.589)
-    (gr_text "30.6070 mm" (at 158.1785 128.248) (layer "User.1") (tstamp 2fc514ba-ac40-4527-873a-f035ee9e075a)
+    (gr_text "30.6070 mm" (at 158.1785 128.248) (layer "User.1") (tstamp ba9c2bee-a50e-47a8-b65d-02cdc4351cc8)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (format (units 3) (units_format 1) (precision 4))
